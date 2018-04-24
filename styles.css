@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: aquamarine;
+    height: 100vh;
+    transition: 1s;
+}
+
+nav a{
+    display: block;
+    padding: 5px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+nav.oculto{
+    transform: translateX(-100%);
+}
+
+button{
+    margin-left: 100px;
+}
